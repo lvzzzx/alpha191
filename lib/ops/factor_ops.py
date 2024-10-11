@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import talib as ta
 from scipy.stats import norm
-from factors.ops.rolling import _wma, _max_distance, _min_distance, _alpha191_143
+from .rolling import _wma, _max_distance, _min_distance, _alpha191_143
 
 # from calculator.base import FactorBase
 from typing import List, Union, Dict, Any
